@@ -1,1 +1,7 @@
 dataset/
+env_311/
+venv/
+__pycache__/
+*.pyc
+*.h5
+.DS_Store

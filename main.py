@@ -1,4 +1,4 @@
-from utils.load_data import get_data_loaders
+from utils.data_loader import get_data_loaders
 
 train_loader, classes = get_data_loaders("dataset/asl_alphabet_train", batch_size=32)
 
