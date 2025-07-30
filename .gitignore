@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+data/
+*.npy
+*.h5
+*.keras
+my_model.h5
+my_model.keras
+.DS_Store
+Thumbs.db
