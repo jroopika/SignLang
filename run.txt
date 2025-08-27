@@ -1,0 +1,24 @@
+
+step1: activate virtual environment
+-> venv\Scripts\activate.bat
+
+step2: install dependencies 
+-> pip install tensorflow opencv-python streamlit numpy joblib emoji
+
+step3: verify installations
+-> pip list
+check for tensorflow, opencv-python, streamlit, numpy, joblib, and emoji in the list. If any are missing, reinstall them individually
+
+step4: Run Preprocessing First
+File: scripts/preprocess.py
+-> python scripts/preprocess.py
+
+step5: Run Training Next
+
+File: scripts/train_model.py
+Command: python scripts/train_model.py
+
+step6: Run the App Last
+
+File: app.py
+Command: streamlit run app.py
